@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: "./components/common/app.js",
   output: {
-    filename: "./dist/bundle.js"
+    filename: "./components/common/dist/bundle.js"
   },
   module: {
     rules: [{
