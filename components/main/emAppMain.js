@@ -13,7 +13,7 @@ module.exports = angular.module('emApp.main', ['ui.router'])
     name: 'main',
     url:'/',
     templateUrl : template
-  }
+  };
 
   $stateProvider.state(helloState);
 }])
